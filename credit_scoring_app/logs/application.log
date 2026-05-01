@@ -1,0 +1,40 @@
+2026-03-20 10:58:07,615 - __main__ - INFO - Credit assessment completed
+2026-03-20 10:58:07,623 - __main__ - ERROR - Database logging failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\SCHOOL 2.2\PROJECT_credit_scoring_ml\credit_scoring_app\app.py", line 387, in <module>
+    confidence=float(confidence),
+               ~~~~~^^^^^^^^^^^^
+ValueError: could not convert string to float: '74.8%'
+2026-03-20 10:58:35,830 - __main__ - INFO - Credit assessment completed
+2026-03-20 10:58:35,846 - __main__ - ERROR - Database logging failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\SCHOOL 2.2\PROJECT_credit_scoring_ml\credit_scoring_app\app.py", line 387, in <module>
+    confidence=float(confidence),
+               ~~~~~^^^^^^^^^^^^
+ValueError: could not convert string to float: '74.8%'
+2026-03-20 11:12:39,006 - __main__ - INFO - Credit assessment completed
+2026-03-20 11:12:39,128 - __main__ - ERROR - Database logging failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\SCHOOL 2.2\PROJECT_credit_scoring_ml\credit_scoring_app\app.py", line 387, in <module>
+    confidence=float(confidence),
+               ~~~~~^^^^^^^^^^^^
+ValueError: could not convert string to float: '90.7%'
+2026-04-03 17:21:11,991 - __main__ - INFO - Credit assessment completed
+2026-04-03 17:21:12,017 - __main__ - ERROR - Database logging failed
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Desktop\SCHOOL 2.2\PROJECT_credit_scoring_ml\credit_scoring_app\app.py", line 405, in <module>
+    log_prediction_event(
+    ~~~~~~~~~~~~~~~~~~~~^
+        applicant_features={k: str(v) for k, v in applicant_data.items()},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        fairness_metrics=db_fairness_metrics
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: log_prediction_event() got an unexpected keyword argument 'fairness_metrics'
+2026-04-13 11:57:45,574 - __main__ - INFO - Custom CSS file not found. Using default styling.
+2026-04-13 11:57:56,256 - __main__ - INFO - Custom CSS file not found. Using default styling.
+2026-04-13 11:58:03,441 - __main__ - INFO - Custom CSS file not found. Using default styling.
+2026-04-13 12:02:57,927 - __main__ - INFO - Custom CSS file not found. Using default styling.
+2026-04-13 12:03:02,418 - __main__ - INFO - Custom CSS file not found. Using default styling.
