@@ -5,6 +5,8 @@ README.md
 
 CreditWise is an academic project demonstrating a responsible and transparent credit scoring system built with Python and machine learning. The application combines predictive modeling with explainability, fairness auditing, and regulatory compliance features to enable informed lending decisions while maintaining ethical standards.
 
+### ACCESS LINK: https://huggingface.co/spaces/Jack-ki1/ONE_SEMESTER_SCHOOL_PROJECT
+
 ## Table of Contents
 - [Features](#features)
 - [Directory Structure](#directory-structure)
